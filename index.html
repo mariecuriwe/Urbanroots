@@ -1,86 +1,117 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urban Roots</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #ff9966, #ff5e62);
-            color: #fff;
-            text-align: center;
-        }
-        header {
-            padding: 40px 20px;
-            background: rgba(0, 0, 0, 0.2);
-        }
-        header h1 {
-            font-size: 3em;
-            margin: 0;
-        }
-        .products {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-        .product {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 15px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-        }
-        .product img {
-            width: 100%;
-            border-radius: 8px;
-        }
-        .product h3 {
-            margin-top: 10px;
-            font-size: 1.4em;
-        }
-        .product p {
-            font-size: 1em;
-        }
-        footer {
-            background: rgba(0, 0, 0, 0.3);
-            padding: 20px;
-            margin-top: 20px;
-        }
-        footer p {
-            margin: 5px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban Roots</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fafafa; color: #333; }
+    header { background: linear-gradient(to right, #28a745, #218838); color: white; text-align: center; padding: 60px 20px; }
+    header h1 { font-size: 3em; margin: 0; }
+    header p { font-size: 1.2em; }
+    section { padding: 50px 20px; max-width: 1100px; margin: auto; }
+    h2 { text-align: center; color: #28a745; margin-bottom: 30px; }
+    .about, .products, .team, .contact { background-color: white; margin-bottom: 40px; border-radius: 10px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .product { background: #f4f4f4; padding: 20px; border-radius: 10px; text-align: center; }
+    .product img { max-width: 100%; border-radius: 10px; }
+    .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .member { background: #f4f4f4; padding: 20px; border-radius: 10px; text-align: center; }
+    .member img { border-radius: 50%; width: 150px; height: 150px; object-fit: cover; }
+    footer { background-color: #28a745; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Urban Roots</h1>
-        <p>Fresh, Colorful, and Vibrant Products for You</p>
-        <p><strong>Price Range:</strong> $25 - $100</p>
-    </header>
-    <section class="products">
-        <div class="product">
-            <img src="https://via.placeholder.com/250x150.png?text=Product+1" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>High quality and eco-friendly.</p>
-        </div>
-        <div class="product">
-            <img src="https://via.placeholder.com/250x150.png?text=Product+2" alt="Product 2">
-            <h3>Product 2</h3>
-            <p>Stylish and sustainable.</p>
-        </div>
-        <div class="product">
-            <img src="https://via.placeholder.com/250x150.png?text=Product+3" alt="Product 3">
-            <h3>Product 3</h3>
-            <p>Made with care and passion.</p>
-        </div>
-    </section>
-    <footer>
-        <p>Contact Us: ‪+1 (919) 675‑8804‬</p>
-        <p>Email: urbanrootsx@gmail.com</p>
-        <p>&copy; 2025 Urban Roots. All rights reserved.</p>
-    </footer>
+
+<header>
+  <h1>Urban Roots</h1>
+  <p>Bringing Nature into Your Home – Beautiful, Affordable & Sustainable</p>
+</header>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>Founded in Texas, USA, Urban Roots is dedicated to creating stylish, eco-friendly products that bring nature into your living spaces. Our mission is to inspire healthier lifestyles through nature-inspired designs, from home décor to everyday essentials. Every product is crafted with care, blending quality, sustainability, and beauty.</p>
+  <p>We believe in supporting local communities, reducing environmental impact, and delivering value to our customers worldwide.</p>
+</section>
+
+<section class="products">
+  <h2>Our Products</h2>
+  <div class="product-grid">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 1">
+      <h3>Eco Planter</h3>
+      <p>$25</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 2">
+      <h3>Bamboo Basket</h3>
+      <p>$40</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 3">
+      <h3>Recycled Tote Bag</h3>
+      <p>$35</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 4">
+      <h3>Wooden Wall Art</h3>
+      <p>$60</p>
+    </div>
+  </div>
+</section>
+
+<section class="team">
+  <h2>Meet Our Team</h2>
+  <div class="team-grid">
+    <div class="member">
+      <img src="https://via.placeholder.com/150" alt="Team Member">
+      <h3>Sarah Johnson</h3>
+      <p><em>Founder & Creative Director</em></p>
+      <p>Leads brand vision and product design with passion for nature.</p>
+    </div>
+    <div class="member">
+      <img src="https://via.placeholder.com/150" alt="Team Member">
+      <h3>James Carter</h3>
+      <p><em>Operations Manager</em></p>
+      <p>Ensures smooth production and efficient delivery worldwide.</p>
+    </div>
+    <div class="member">
+      <img src="https://via.placeholder.com/150" alt="Team Member">
+      <h3>Emily Davis</h3>
+      <p><em>Customer Experience Lead</em></p>
+      <p>Dedicated to creating a seamless and friendly shopping experience.</p>
+    </div>
+    <div class="member">
+      <img src="https://via.placeholder.com/150" alt="Team Member">
+      <h3>Michael Brown</h3>
+      <p><em>Marketing Specialist</em></p>
+      <p>Spreads our message through creative campaigns and outreach.</p>
+    </div>
+    <div class="member">
+      <img src="https://via.placeholder.com/150" alt="Team Member">
+      <h3>Linda Green</h3>
+      <p><em>Product Designer</em></p>
+      <p>Designs unique, eco-friendly products with sustainability in mind.</p>
+    </div>
+    <div class="member">
+      <img src="https://via.placeholder.com/150" alt="Team Member">
+      <h3>David Wilson</h3>
+      <p><em>Logistics Coordinator</em></p>
+      <p>Manages shipping and ensures timely product delivery worldwide.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>📍 Texas, USA</p>
+  <p>📞 +1 (919) 675-8804</p>
+  <p>📧 urbanrootsx@gmail.com</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Urban Roots. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
