@@ -5,202 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>URBAN XM - Freelance Projects Platform</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fdfdfd;
-      color: #333;
-    }
-    header {
-      display: flex;
-      align-items: center;
-      padding: 20px 40px;
-      background: #f5f5f5;
-      border-bottom: 2px solid #ddd;
-    }
-    header img {
-      height: 70px;
-      margin-right: 15px;
-    }
-    header h1 {
-      font-size: 1.8rem;
-      color: #ff6600;
-    }
-    nav {
-      margin-left: auto;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-      font-size: 1.1rem;
-    }
-    nav a:hover {
-      color: #ff6600;
-    }
-    .hero {
-      text-align: center;
-      padding: 80px 20px;
-      background: linear-gradient(to right, #ff7f50, #ffb347);
-      color: white;
-    }
-    .hero h2 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-    }
-    .hero button {
-      padding: 15px 30px;
-      margin: 10px;
-      border: none;
-      border-radius: 8px;
-      background: #fff;
-      color: #ff6600;
-      font-size: 1.1rem;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    .hero button:hover {
-      background: #333;
-      color: white;
-    }
-    section {
-      padding: 60px 30px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    section h2 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      text-align: center;
-      color: #ff6600;
-    }
-    .services, .projects, .faq {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 12px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      transition: 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .card h3 {
-      margin-bottom: 10px;
-      color: #333;
-    }
-    .team {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-    }
-    .worker {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    .worker h3 {
-      color: #ff6600;
-    }
-    footer {
-      text-align: center;
-      padding: 25px;
-      background: #f5f5f5;
-      margin-top: 50px;
-    }
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#fdfdfd; color:#333;}
+    header {display:flex; align-items:center; padding:20px 40px; background:#f5f5f5; border-bottom:2px solid #ddd;}
+    header img {height:70px; margin-right:15px;}
+    header h1 {font-size:1.8rem; color:#ff6600;}
+    nav {margin-left:auto;}
+    nav a {margin:0 15px; text-decoration:none; color:#333; font-weight:bold; font-size:1.1rem;}
+    nav a:hover {color:#ff6600;}
+    .hero {text-align:center; padding:80px 20px; background:linear-gradient(to right, #ff7f50, #ffb347); color:white;}
+    .hero h2 {font-size:3rem; margin-bottom:20px;}
+    .hero button {padding:15px 30px; margin:10px; border:none; border-radius:8px; background:#fff; color:#ff6600; font-size:1.1rem; cursor:pointer; transition:0.3s;}
+    .hero button:hover {background:#333; color:white;}
+    section {padding:60px 30px; max-width:1200px; margin:auto;}
+    section h2 {font-size:2rem; margin-bottom:20px; text-align:center; color:#ff6600;}
+    footer {text-align:center; padding:25px; background:#f5f5f5; margin-top:50px;}
   </style>
 </head>
 <body>
-  <!-- Header with Logo -->
+  <!-- Header -->
   <header>
     <img src="images/logo.jpeg" alt="URBAN XM Logo">
     <h1>URBAN XM</h1>
     <nav>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#team">Team</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="hire.html">Hire</a>
+      <a href="post.html">Post Project</a>
+      <a href="join.html">Join</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="hero">
     <h2>Connecting Freelancers with Exciting Projects</h2>
     <p>At URBAN XM, we empower global talent to deliver outstanding results.</p>
-    <button>Hire a Freelancer</button>
-    <button>Post a Project</button>
-    <button>Join as Freelancer</button>
+    <a href="hire.html"><button>Hire a Freelancer</button></a>
+    <a href="post.html"><button>Post a Project</button></a>
+    <a href="join.html"><button>Join as Freelancer</button></a>
   </section>
 
-  <!-- About Section -->
+  <!-- About -->
   <section id="about">
     <h2>About Us</h2>
     <p>URBAN XM is a freelancer-focused company based in Texas, USA. Our mission is to provide freelancers with exciting projects across multiple industries, including design, writing, programming, translation, and data entry. We believe in fair work, transparency, and empowering talent to thrive in the modern freelance economy.</p>
-  </section>
-
-  <!-- Services Section -->
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="services">
-      <div class="card"><h3>Logo Design & Branding</h3><p>Professional identity design for businesses.</p></div>
-      <div class="card"><h3>Content Writing</h3><p>High-quality articles, blogs, and copywriting.</p></div>
-      <div class="card"><h3>Web Development</h3><p>Modern websites with responsive design.</p></div>
-      <div class="card"><h3>Translation Services</h3><p>Translate content into multiple languages.</p></div>
-      <div class="card"><h3>Data Entry Projects</h3><p>Accurate and fast data entry solutions.</p></div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Recent Projects</h2>
-    <div class="projects">
-      <div class="card"><h3>10 Logo Designs</h3><p>Completed for clients in USA & Europe.</p></div>
-      <div class="card"><h3>Website Revamp</h3><p>Modernized business site for a startup.</p></div>
-      <div class="card"><h3>Blog Translations</h3><p>English to French & Spanish translation.</p></div>
-    </div>
-  </section>
-
-  <!-- Team Section -->
-  <section id="team">
-    <h2>Meet Our Freelancers</h2>
-    <div class="team">
-      <div class="worker"><h3>Mark Edision</h3><p>Logo Designer</p></div>
-      <div class="worker"><h3>Sarah Johnson</h3><p>Content Writer</p></div>
-      <div class="worker"><h3>David Lee</h3><p>Web Developer</p></div>
-      <div class="worker"><h3>Maria Gomez</h3><p>Translator</p></div>
-    </div>
-  </section>
-
-  <!-- FAQ Section -->
-  <section id="faq">
-    <h2>Frequently Asked Questions</h2>
-    <div class="faq">
-      <div class="card"><h3>How do I hire a freelancer?</h3><p>Simply click “Hire a Freelancer” and browse our network.</p></div>
-      <div class="card"><h3>How do I get paid?</h3><p>We use secure payment systems with global reach.</p></div>
-      <div class="card"><h3>Can I work remotely?</h3><p>Yes, all our projects are remote and flexible.</p></div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Location:</strong> Texas, USA</p>
-    <p><strong>Phone:</strong> ‪+1 (919) 675-8804‬</p>
-    <p><strong>Email:</strong> urbanrootsx@gmail.com</p>
-    <p><strong>Project Pricing:</strong> $25 - $100</p>
   </section>
 
   <!-- Footer -->
